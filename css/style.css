@@ -1,0 +1,86 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 0.785rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  --blue: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --dark: #292a2b;
+}
+section {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 1% 1% 1% 1%;
+}
+.box {
+  background-color: #5ea9ff;
+  width: 28vh;
+  height: 16vh;
+  border-radius: 5px;
+  margin: 1% 1% 1% 1%;
+}
+.uno {
+  font-size: 1.2em;
+  color: white;
+}
+.carrito {
+  color: white;
+  font-size: 2em;
+}
+.numero1 {
+  font-size: 2em;
+  color: white;
+  display: flex;
+}
+
+.pad {
+  padding: 1em;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+}
+div {
+  padding: 3px;
+}
+div:first-child {
+  margin-right: auto;
+}
+
+.box1 {
+  background-color: #42dcbd;
+  width: 28vh;
+  height: 16vh;
+  border-radius: 5px;
+  margin: 1% 1% 1% 1%;
+}
+
+.box2 {
+  background-color: #ffbf64;
+  width: 28vh;
+  height: 16vh;
+  border-radius: 5px;
+  margin: 1% 1% 1% 1%;
+}
+
+.box3 {
+  background-color: #ff6781;
+  width: 28vh;
+  height: 16vh;
+  border-radius: 5px;
+  margin: 1% 1% 1% 1%;
+}
